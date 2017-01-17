@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: fnc-giu2
+  host: fnc-giu2
+  disk_quota: 1024M
+  services:
+  - fnc-giu2-AdvancedMobileAccess
+  - fnc-giu2-imfpush
+  - fnc-giu2-cloudantNoSQLDB
